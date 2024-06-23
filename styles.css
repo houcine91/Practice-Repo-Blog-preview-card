@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: clamp(12px, 1.5vw, 18px);
+}
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 7px 7px 1px black;
+}
+
+.container .card {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.container button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: inherit;
+}
+
+.publish-date {
+  font-size: 0.9em;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 0.95em;
+  margin-bottom: 15px;
+}
+
+.container .author {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author p {
+  margin: 0;
+  font-weight: bold;
+}
